@@ -7,7 +7,7 @@
   "scripts": {
     "backend": "nodemon backend/index.js",
     "frontend": "npm run dev --prefix frontend",
-    "dev": "node_modules/.bin/npm-run-all --parallel frontend backend",
+    "dev": "npx npm-run-all --parallel frontend backend",
     "build": "echo 'No build steps required'",
     "start": "npm run dev"
   },
